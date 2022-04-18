@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="JavaSeleniumPractice.SeleniumSessions.DragAndDrop"/>
+      <class name="com.wordpress.Testcases.KeyboadEvents"/>
+      <class name="JavaSeleniumPractice.SeleniumSessions.MouseHover"/>
+      <class name="com.wordpress.Testcases.TakingScreenshots"/>
+      <class name="JavaSeleniumPractice.SeleniumSessions.AppTest"/>
+      <class name="com.wordpress.Testcases.WindowHandlesDemo"/>
+      <class name="com.wordpress.Testcases.ReadingExcel"/>
+      <class name="com.wordpress.Testcases.VerifyValidLogin"/>
+      <class name="com.wordpress.Testcases.DropDownJquery"/>
+      <class name="JavaSeleniumPractice.SeleniumSessions.MouseRightClickAction"/>
+      <class name="JavaSeleniumPractice.SeleniumSessions.DisplayedEnabledSelected"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
